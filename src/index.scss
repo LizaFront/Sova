@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+  --main-color: #8957E5;
+  --second-color: #FFD700;
+  --white: #fff;
+  --white-bg: #F5F5F5;
+  --text-color: #1C1C1C;
+  --light-gray: #E8E8E8;
+
+  --font-family-main: "Raleway", sans-serif;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fw-light: 300;
+  --fw-normal: 600;
+  --fw-bold: 800;
+  position: relative;
+}
+
+body {
+  font-family: var(--font-family-main);
+  color: var(--text-color);
+  font-weight: var(--fw-light);
+  background-color: var(--main-color);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
